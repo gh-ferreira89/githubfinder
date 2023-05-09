@@ -12,6 +12,7 @@ import classes from './Search.module.css';
 
 export const Search = ({loadUser}: SearchProps) => {
   const [userName, setUserName] = useState("");
+  const [email, setEmail] = useState('')
 
   const handleKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Enter") {
